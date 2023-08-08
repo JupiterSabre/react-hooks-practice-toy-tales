@@ -24,6 +24,14 @@ function App() {
         setToys([...toys, newToy])
       }
 
+
+      function deleteToy(deletedToy) {
+        const filteredToys = toys.filter( toy => toy.id !== deletedToy.id)
+        setToys(filteredToys)
+      }
+
+
+
   function handleClick() {
     setShowForm((showForm) => !showForm);
   }
@@ -35,7 +43,7 @@ function App() {
       <div className="buttonContainer">
         <button onClick={handleClick}>Add a Toy</button>
       </div>
-      <ToyContainer addNewToy={addNewToy} toys={toys} />
+      <ToyContainer deleteToy={deleteToy} addNewToy={addNewToy} toys={toys} />
     </>
   );
 }

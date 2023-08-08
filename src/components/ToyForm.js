@@ -27,9 +27,12 @@ function ToyForm({addNewToy}) {
      fetch("http://localhost:3001/toys", OPTIONS) 
      .then(res => res.json())
      .then(newToy => addNewToy(newToy))
-    // resetForm()
-
+     setToyName("")
+     setToyImage("")
+      
   }
+
+
 
 
 
