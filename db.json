@@ -27,7 +27,7 @@
     {
       "id": 5,
       "name": "Rex",
-      "image": "https://static.wikia.nocookie.net/pixar/images/a/a8/Rex_%28Toy_Story%29.png/revision/latest/scale-to-width-down/377?cb=20210221010941",
+      "image": "https://at-cdn-s03.audiotool.com/2023/02/23/documents/ohljuio5v/0/cover256x256-5558302a83f146eaa4d8362ee583f070.jpg",
       "likes": 1
     },
     {
@@ -37,16 +37,10 @@
       "likes": 2
     },
     {
-      "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "helllllo",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fat-cdn-s03.audiotool.com%2F2023%2F02%2F23%2Fdocuments%2Fohljuio5v%2F0%2Fcover256x256-5558302a83f146eaa4d8362ee583f070.jpg&f=1&nofb=1&ipt=9567027f0e54b16aac1b696ad40395bba8abaea9313dc0727bf50b99dd7cbe38&ipo=images",
+      "likes": 0,
+      "id": 7
     }
   ]
 }
